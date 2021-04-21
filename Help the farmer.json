@@ -17,6 +17,14 @@
     "Billie Joe Barn"
   ],
 
+  "CreateEntity":{
+    "key": "farmer",
+    "name": "[name]",
+    "skin": "fallen_farmer",
+    "location": [1921.5, 23.0, 559.5, 100.0],
+    false
+  },
+
 
   "Dialog": [
     {
@@ -24,9 +32,7 @@
       "&d&lWillie B.": "Their Queen left the kingdom without any members to help them.",
       "&d&lWillie B.": "It's about to start snowing and this year’s harvest can’t go to waste.",
       "&d&lWillie B.": "Will you help &9&l[name]&f, the farmer, build a small barn before the snow arrives?"
-
     },
-    20,
     false
   ],
   "SendMessageOptions": ["&2Yes", "&4No"],
@@ -56,7 +62,7 @@
     false
   ],
 
-  "Hold": [],
+  "HighlightClickEntity": "farmer",
 
   "Dialog": [
     {
@@ -65,13 +71,12 @@
       "&9&l[name]&f": "The first material I need is stone… I need that for my foundation. That’s all for now.",
       "&9&l[name]&f": "OH! I completely forgot, but I would need you to get me &6&l85&f cobblestone and then smelt it in a furnace for me."
     },
-    20,
     false
   ],
 
   "Comment": "Stone Loop",
   "Wait": 1,
-  "Hold": [],
+  "HighlightClickEntity": "farmer",
   "If": [],
   "HasItem": [
     {
@@ -103,7 +108,6 @@
       "&9&l[name]&f": "Are you even trying?",
       "&9&l[name]&f": "I am still waiting on the &6&l85 pieces of Stone&f you promised me."
     },
-    20,
     false
   ],
   "Skip": "Stone Loop",
@@ -116,7 +120,6 @@
       "&9&l[name]&f": "You need to fire up your furnace and put the cobblestone in there…",
       "&9&l[name]&f": "Remember, I need &6&l85 pieces of Stone&f."
     },
-    20,
     false
   ],
   "Skip": "Stone Loop",
@@ -128,35 +131,33 @@
       "&9&l[name]&f": " Oh… you forgot a few pieces...",
       "&9&l[name]&f": "I need &6&l85 pieces of Stone&f."
     },
-    20,
     false
   ],
   "Skip": "Stone Loop",
 
   "Comment": "Stone Success",
+  "ProvideItem":["farmer", {"material":"stone", "amount":85}],
   "Dialog": [
     {
-      "&9&l[name]&f": "Ahh, amazing [Player], that’s exactly what I need!"
+      "&9&l[name]&f": "Ahh, amazing [PLAYER], that’s exactly what I need!"
     },
-    20,
     false
   ],
 
 
   "Comment": "Barn Schematic near NPC, progressing with each stage of items retrieved. With walking to chest animation.",
-  "Hold": [],
+  "HighlightClickEntity": "farmer",
 
   "Dialog": [
     {
       "&9&l[name]&f": "Could you be so kind to fetch me &6&l2 Glass Panes&f as well?"
     },
-    20,
     false
   ],
 
   "Comment": "Glass Loop",
   "Wait": 1,
-  "Hold": [],
+  "HighlightClickEntity": "farmer",
   "If": [],
   "HasItem": [
     {
@@ -189,7 +190,6 @@
       "&9&l[name]&f": "Are you even trying?",
       "&9&l[name]&f": "I am still waiting on the &6&l2 Glass Panes&f you promised me."
     },
-    20,
     false
   ],
   "Skip": "Glass Loop",
@@ -201,7 +201,6 @@
       "&9&l[name]&f": "It’s supposed to be two completely normal glass panes, not those big chunks of glass!",
       "&9&l[name]&f": "Don’t forget that I will need two of them."
     },
-    20,
     false
   ],
   "Skip": "Glass Loop",
@@ -213,22 +212,21 @@
       "&9&l[name]&f": "I need two of them to build the small barn.",
       "&9&l[name]&f": "Please come back with more."
     },
-    20,
     false
   ],
   "Skip": "Glass Loop",
 
   "Comment": "Glass Success",
+  "ProvideItem":["farmer", {"material":"glass_pane", "amount":2}],
   "Dialog": [
     {
       "&9&l[name]&f": "Thank you! Come back when you are ready, I have more things that has to be done! *cackles wickedly*."
     },
-    20,
     false
   ],
 
   "Comment": "Barn Schematic near NPC, progressing with each stage of items retrieved. With walking to chest animation.",
-  "Hold": [],
+  "HighlightClickEntity": "farmer",
 
 
   "Dialog": [
@@ -236,7 +234,6 @@
       "&9&l[name]&f": "I need you to get &6&l62 Oak Logs&f including &6&la simple Oak Door&f.",
       "&9&l[name]&f": "After that then I will have everything to create a shelter for my harvest."
     },
-    20,
     false
   ],
 
@@ -248,7 +245,7 @@
 
   "Comment": "Wood Loop",
   "Wait": 1,
-  "Hold": [],
+  "HighlightClickEntity": "farmer",
   "If": [],
   "HasItem": [
     {
@@ -279,7 +276,6 @@
       "&9&l[name]&f": "Don’t worry, here I will say them again.",
       "&9&l[name]&f": "I need &6&l62 oak logs&f and &6&lan oak door&f; now shush I need to focus on my work."
     },
-    20,
     false
   ],
   "Skip": "Wood Loop",
@@ -292,23 +288,22 @@
       "&9&l[name]&f": "Would you mind going to the mines and gather more?",
       "&9&l[name]&f": "I think I mentioned that I needed &6&l62 Oak Logs&f and &6&la simple Oak Door&f."
     },
-    20,
     false
   ],
   "Comment": "Wood Success",
+  "ProvideItem":["farmer", {"material":"oak_log", "amount":62}, {"material":"oak_door", "amount":1}],
   "Dialog": [
     {
       "&9&l[name]&f": "That was the last items I needed.",
       "&9&l[name]&f": "Now I need to get to work! The snow is really beginning to look bad at a distance…",
       "&9&l[name]&f": "Thank you so much for your help."
     },
-    20,
     false
   ],
 
   "Comment": "Chest animation again but this time he give the player their reward.",
   "Wait": 1,
-  "Hold": [],
+  "HighlightClickEntity": "farmer",
 
   "Dialog": [
     {
@@ -317,7 +312,6 @@
       "&9&l[name]&f": "Take this *gives items* and remember that &6&l[kingdom]&f is in debt to [KINGDOM].",
       "&9&l[name]&f": "Farewell [PLAYER], I hope we see each other again some time!"
     },
-    20,
     false
   ],
   "CompleteKingdomQuest":[]
