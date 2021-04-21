@@ -19,7 +19,7 @@
 
   "CreateEntity":{
     "key": "farmer",
-    "name": "&9&lBillie Joe Barn",
+    "name": ["&9&lBillie Joe Barn", "&8&oFallen Kingdom Farmer"],
     "skin": "fallen_farmer",
     "location": [1921.5, 23.0, 559.5, 100.0],
     "global": false
