@@ -171,7 +171,7 @@
   "If": [],
   "HasItem": [
     {
-      "material": "glass_block",
+      "material": "glass",
       "amount": 2
     }
   ],
