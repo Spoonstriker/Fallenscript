@@ -220,7 +220,7 @@
   "TakeItem": [{"material":"glass_pane", "amount":2}],
   "Dialog": [
     {
-      "&9&l[name]&f": "Thank you! Come back when you are ready, I have more things that has to be done! *cackles wickedly*."
+      "&9&l[name]&f": "Thank you! Come back when you are ready, I have more things that has to be done!"
     },
     false
   ],
