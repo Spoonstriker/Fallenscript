@@ -20,8 +20,8 @@
 
   "NewDialog": [
     {
-      "&d&lWillie B.": "The neighbour kingdom [kingdom] needs your help.",
-      "&d&lWillie B.": "Their Queen left the kingdom without any members to help him.",
+      "&d&lWillie B.": "The neighbouring kingdom [kingdom] needs your help.",
+      "&d&lWillie B.": "Their Queen left the kingdom without any members to help them.",
       "&d&lWillie B.": "It's about to start snowing and this year’s harvest can’t go to waste.",
       "&d&lWillie B.": "Will you help [name], the farmer, build a small barn before the snow arrives?"
 
@@ -38,7 +38,7 @@
     {
     "&d&lWillie B.": "Oh...",
     "&d&lWillie B.": "I really hoped you would be the one, I thought you would be different...",
-    "&d&lWillie B.":  "I guess not. Hope you change your mind one day..."
+    "&d&lWillie B.": "I guess not. Hope you change your mind one day..."
 
     },
     false
@@ -51,7 +51,6 @@
     {
       "&d&lWillie B.": "Great!",
       "&d&lWillie B.": "You can find them at xyz."
-
     },
     false
   ],
@@ -85,8 +84,7 @@
     {
       "material": "stone",
       "amount": 1
-    },
-
+    }
   ],
 
   "Skip": "Stone Almost",
@@ -95,8 +93,7 @@
     {
       "material": "cobblestone",
       "amount": 1
-    },
-    false
+    }
   ],
   "Skip": "Stone Fail",
   "NewDialog": [
@@ -256,7 +253,7 @@
   "HasItem": [
     {
       "material": "oak_log",
-      "amount": 62
+      "amount": 1
     },
     {
       "material": "oak_door",
