@@ -50,7 +50,7 @@
   "NewDialog": [
     {
       "&d&lWillie B.": "Great!",
-      "&d&lWillie B.": "You can find them at xyz.",
+      "&d&lWillie B.": "You can find them at xyz."
 
     },
     false
@@ -114,7 +114,7 @@
       "[name]": "No, no, no… this isn’t what I need.",
       "[name]": "I need stone!",
       "[name]": "You need to fire up your furnace and put the cobblestone in there…",
-      "[name]": "Remember, I need &6&l85 pieces of Stone&f.",
+      "[name]": "Remember, I need &6&l85 pieces of Stone&f."
     },
     false
   ],
@@ -125,7 +125,7 @@
     {
       "[name]": "Oh yes! That is what I need!",
       "[name]": " Oh… you forgot a few pieces...",
-      "[name]": "I need &6&l85 pieces of Stone&f.",
+      "[name]": "I need &6&l85 pieces of Stone&f."
     },
     false
   ],
@@ -134,7 +134,7 @@
   "Comment": "Stone Success",
   "NewDialog": [
     {
-      "[name]": "Ahh, amazing [Player], that’s exactly what I need!",
+      "[name]": "Ahh, amazing [Player], that’s exactly what I need!"
     },
     false
   ],
@@ -145,7 +145,7 @@
 
   "NewDialog": [
     {
-      "[name]": "Could you be so kind to fetch me &6&l2 Glass Panes&f as well?",
+      "[name]": "Could you be so kind to fetch me &6&l2 Glass Panes&f as well?"
     },
     false
   ],
@@ -194,7 +194,7 @@
     {
       "[name]": "Oh, you silly goose!",
       "[name]": "It’s supposed to be two completely normal glass panes, not those big chunks of glass!",
-      "[name]": "Don’t forget that I will need two of them.",
+      "[name]": "Don’t forget that I will need two of them."
     },
     false
   ],
@@ -205,7 +205,7 @@
     {
       "[name]": "That’s right, glass panes, but it seems you are a bit short.",
       "[name]": "I need two of them to build the small barn.",
-      "[name]": "Please come back with more.",
+      "[name]": "Please come back with more."
     },
     false
   ],
@@ -214,7 +214,7 @@
   "Comment": "Glass Success",
   "NewDialog": [
     {
-      "[name]": "Thank you! Come back when you are ready, I have more things that has to be done! *cackles wickedly*.",
+      "[name]": "Thank you! Come back when you are ready, I have more things that has to be done! *cackles wickedly*."
     },
     false
   ],
@@ -226,7 +226,7 @@
   "NewDialog": [
     {
       "[name]": "I need you to get &6&l62 Oak Logs&f including &6&la simple Oak Door&f.",
-      "[name]": "After that then I will have everything to create a shelter for my harvest.",
+      "[name]": "After that then I will have everything to create a shelter for my harvest."
     },
     false
   ],
@@ -268,7 +268,7 @@
     {
       "[name]": "It seems like you haven’t gotten everything I have asked for.",
       "[name]": "Don’t worry, here I will say them again.",
-      "[name]": "I need &6&l62 oak logs&f and &6&lan oak door&f; now shush I need to focus on my work.",
+      "[name]": "I need &6&l62 oak logs&f and &6&lan oak door&f; now shush I need to focus on my work."
     },
     false
   ],
@@ -280,7 +280,7 @@
     {
       "[name]": "I think I need a bit more materials to complete the build.",
       "[name]": "Would you mind going to the mines and gather more?",
-      "[name]": "I think I mentioned that I needed 6&l62 Oak Logs&f and &6&la simple Oak Door&f.",
+      "[name]": "I think I mentioned that I needed 6&l62 Oak Logs&f and &6&la simple Oak Door&f."
     },
     false
   ],
@@ -289,7 +289,7 @@
     {
       "[name]": "That was the last items I needed.",
       "[name]": "Now I need to get to work! The snow is really beginning to look bad at a distance…",
-      "[name]": "Thank you so much for your help.",
+      "[name]": "Thank you so much for your help."
     },
     false
   ],
@@ -303,7 +303,7 @@
       "[name]": "I cannot say how happy I am that you took your time to help me.",
       "[name]": " We won't struggle with food, and we have you to thank for that.",
       "[name]": "Take this *gives items* and remember that [kingdom] is in debt to [KINGDOM].",
-      "[name]": "Farewell [PLAYER], I hope we see each other again some time!",
+      "[name]": "Farewell [PLAYER], I hope we see each other again some time!"
     },
     false
   ],
