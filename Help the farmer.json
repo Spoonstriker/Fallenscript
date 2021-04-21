@@ -19,7 +19,7 @@
 
   "CreateEntity":{
     "key": "farmer",
-    "name": "[name]",
+    "name": "Billie Joe Barn",
     "skin": "fallen_farmer",
     "location": [1921.5, 23.0, 559.5, 100.0],
     "global": false
@@ -136,7 +136,7 @@
   "Skip": "Stone Loop",
 
   "Comment": "Stone Success",
-  "ProvideItem":["farmer", {"material":"stone", "amount":85}],
+  "TakeItem": [{"material":"stone", "amount":85}],
   "Dialog": [
     {
       "&9&l[name]&f": "Ahh, amazing [PLAYER], that’s exactly what I need!"
@@ -217,7 +217,7 @@
   "Skip": "Glass Loop",
 
   "Comment": "Glass Success",
-  "ProvideItem":["farmer", {"material":"glass_pane", "amount":2}],
+  "TakeItem": [{"material":"glass_pane", "amount":2}],
   "Dialog": [
     {
       "&9&l[name]&f": "Thank you! Come back when you are ready, I have more things that has to be done! *cackles wickedly*."
@@ -291,7 +291,7 @@
     false
   ],
   "Comment": "Wood Success",
-  "ProvideItem":["farmer", {"material":"oak_log", "amount":62}, {"material":"oak_door", "amount":1}],
+  "TakeItem": [{"material":"oak_log", "amount":62}, {"material":"oak_door", "amount":1}],
   "Dialog": [
     {
       "&9&l[name]&f": "That was the last items I needed.",
