@@ -10,15 +10,15 @@
   },
   "Store": [
     "kingdom",
-    "&6Fallen Kingdom"
+    "&6&lFallen Kingdom&f"
   ],
   "Store": [
     "name",
-    "&9&lBillie Joe Barn"
+    "&9&lBillie Joe Barn&f"
   ],
 
 
-  "NewDialog": [
+  "Dialog": [
     {
       "&d&lWillie B.": "The neighbouring kingdom [kingdom] needs your help.",
       "&d&lWillie B.": "Their Queen left the kingdom without any members to help them.",
@@ -34,7 +34,7 @@
 
 
   "Comment": "No",
-  "NewDialog":[
+  "Dialog":[
     {
     "&d&lWillie B.": "Oh...",
     "&d&lWillie B.": "I really hoped you would be the one, I thought you would be different...",
@@ -47,7 +47,7 @@
   "Leave": [],
 
   "Comment": "Yes",
-  "NewDialog": [
+  "Dialog": [
     {
       "&d&lWillie B.": "Great!",
       "&d&lWillie B.": "You can find them at xyz."
@@ -57,7 +57,7 @@
 
   "Hold": [],
 
-  "NewDialog": [
+  "Dialog": [
     {
       "[name]": "Hi! Thank you so much for volunteering to help us, you couldn’t have come at a better time.",
       "[name]": "The snow will soon settle down and it’s going to get cold rather quickly.",
@@ -96,7 +96,7 @@
     }
   ],
   "Skip": "Stone Fail",
-  "NewDialog": [
+  "Dialog": [
     {
       "[name]": "Are you even trying?",
       "[name]": "I am still waiting on the &6&l85 pieces of Stone&f you promised me."
@@ -106,7 +106,7 @@
   "Skip": "Stone Loop",
 
   "Comment": "Stone Fail",
-  "NewDialog": [
+  "Dialog": [
     {
       "[name]": "No, no, no… this isn’t what I need.",
       "[name]": "I need stone!",
@@ -118,7 +118,7 @@
   "Skip": "Stone Loop",
 
   "Comment": "Stone Almost",
-  "NewDialog": [
+  "Dialog": [
     {
       "[name]": "Oh yes! That is what I need!",
       "[name]": " Oh… you forgot a few pieces...",
@@ -129,7 +129,7 @@
   "Skip": "Stone Loop",
 
   "Comment": "Stone Success",
-  "NewDialog": [
+  "Dialog": [
     {
       "[name]": "Ahh, amazing [Player], that’s exactly what I need!"
     },
@@ -140,7 +140,7 @@
   "Comment": "Barn Schematic near NPC, progressing with each stage of items retrieved. With walking to chest animation.",
   "Hold": [],
 
-  "NewDialog": [
+  "Dialog": [
     {
       "[name]": "Could you be so kind to fetch me &6&l2 Glass Panes&f as well?"
     },
@@ -177,7 +177,7 @@
   ],
 
   "Skip": "Glass Fail",
-  "NewDialog": [
+  "Dialog": [
     {
       "[name]": "Are you even trying?",
       "[name]": "I am still waiting on the &6&l2 Glass Panes&f you promised me."
@@ -187,7 +187,7 @@
   "Skip": "Glass Loop",
 
   "Comment": "Glass Fail",
-  "NewDialog": [
+  "Dialog": [
     {
       "[name]": "Oh, you silly goose!",
       "[name]": "It’s supposed to be two completely normal glass panes, not those big chunks of glass!",
@@ -198,7 +198,7 @@
   "Skip": "Glass Loop",
 
   "Comment": "Glass Almost",
-  "NewDialog": [
+  "Dialog": [
     {
       "[name]": "That’s right, glass panes, but it seems you are a bit short.",
       "[name]": "I need two of them to build the small barn.",
@@ -209,7 +209,7 @@
   "Skip": "Glass Loop",
 
   "Comment": "Glass Success",
-  "NewDialog": [
+  "Dialog": [
     {
       "[name]": "Thank you! Come back when you are ready, I have more things that has to be done! *cackles wickedly*."
     },
@@ -220,7 +220,7 @@
   "Hold": [],
 
 
-  "NewDialog": [
+  "Dialog": [
     {
       "[name]": "I need you to get &6&l62 Oak Logs&f including &6&la simple Oak Door&f.",
       "[name]": "After that then I will have everything to create a shelter for my harvest."
@@ -261,7 +261,7 @@
     }
   ],
   "Skip": "Wood Almost",
-  "NewDialog": [
+  "Dialog": [
     {
       "[name]": "It seems like you haven’t gotten everything I have asked for.",
       "[name]": "Don’t worry, here I will say them again.",
@@ -273,7 +273,7 @@
 
 
   "Comment": "Wood Almost",
-  "NewDialog": [
+  "Dialog": [
     {
       "[name]": "I think I need a bit more materials to complete the build.",
       "[name]": "Would you mind going to the mines and gather more?",
@@ -282,7 +282,7 @@
     false
   ],
   "Comment": "Wood Success",
-  "NewDialog": [
+  "Dialog": [
     {
       "[name]": "That was the last items I needed.",
       "[name]": "Now I need to get to work! The snow is really beginning to look bad at a distance…",
@@ -295,7 +295,7 @@
   "Wait": 1,
   "Hold": [],
 
-  "NewDialog": [
+  "Dialog": [
     {
       "[name]": "I cannot say how happy I am that you took your time to help me.",
       "[name]": " We won't struggle with food, and we have you to thank for that.",
