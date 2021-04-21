@@ -10,20 +10,20 @@
   },
   "Store": [
     "kingdom",
-    "&6&lFallen Kingdom&f"
+    "Fallen Kingdom"
   ],
   "Store": [
     "name",
-    "&9&lBillie Joe Barn&f"
+    "Billie Joe Barn"
   ],
 
 
   "Dialog": [
     {
-      "&d&lWillie B.": "The neighbouring kingdom [kingdom] needs your help.",
+      "&d&lWillie B.": "The neighbouring kingdom &6&l[kingdom]&f needs your help.",
       "&d&lWillie B.": "Their Queen left the kingdom without any members to help them.",
       "&d&lWillie B.": "It's about to start snowing and this year’s harvest can’t go to waste.",
-      "&d&lWillie B.": "Will you help [name], the farmer, build a small barn before the snow arrives?"
+      "&d&lWillie B.": "Will you help &9&l[name]&f, the farmer, build a small barn before the snow arrives?"
 
     },
     false
@@ -59,10 +59,10 @@
 
   "Dialog": [
     {
-      "[name]": "Hi! Thank you so much for volunteering to help us, you couldn’t have come at a better time.",
-      "[name]": "The snow will soon settle down and it’s going to get cold rather quickly.",
-      "[name]": "The first material I need is stone… I need that for my foundation. That’s all for now.",
-      "[name]": "OH! I completely forgot, but I would need you to get me &6&l85&f cobblestone and then smelt it in a furnace for me."
+      "&9&l[name]&f": "Hi! Thank you so much for volunteering to help us, you couldn’t have come at a better time.",
+      "&9&l[name]&f": "The snow will soon settle down and it’s going to get cold rather quickly.",
+      "&9&l[name]&f": "The first material I need is stone… I need that for my foundation. That’s all for now.",
+      "&9&l[name]&f": "OH! I completely forgot, but I would need you to get me &6&l85&f cobblestone and then smelt it in a furnace for me."
     },
     false
   ],
@@ -98,8 +98,8 @@
   "Skip": "Stone Fail",
   "Dialog": [
     {
-      "[name]": "Are you even trying?",
-      "[name]": "I am still waiting on the &6&l85 pieces of Stone&f you promised me."
+      "&9&l[name]&f": "Are you even trying?",
+      "&9&l[name]&f": "I am still waiting on the &6&l85 pieces of Stone&f you promised me."
     },
     false
   ],
@@ -108,10 +108,10 @@
   "Comment": "Stone Fail",
   "Dialog": [
     {
-      "[name]": "No, no, no… this isn’t what I need.",
-      "[name]": "I need stone!",
-      "[name]": "You need to fire up your furnace and put the cobblestone in there…",
-      "[name]": "Remember, I need &6&l85 pieces of Stone&f."
+      "&9&l[name]&f": "No, no, no… this isn’t what I need.",
+      "&9&l[name]&f": "I need stone!",
+      "&9&l[name]&f": "You need to fire up your furnace and put the cobblestone in there…",
+      "&9&l[name]&f": "Remember, I need &6&l85 pieces of Stone&f."
     },
     false
   ],
@@ -120,9 +120,9 @@
   "Comment": "Stone Almost",
   "Dialog": [
     {
-      "[name]": "Oh yes! That is what I need!",
-      "[name]": " Oh… you forgot a few pieces...",
-      "[name]": "I need &6&l85 pieces of Stone&f."
+      "&9&l[name]&f": "Oh yes! That is what I need!",
+      "&9&l[name]&f": " Oh… you forgot a few pieces...",
+      "&9&l[name]&f": "I need &6&l85 pieces of Stone&f."
     },
     false
   ],
@@ -131,7 +131,7 @@
   "Comment": "Stone Success",
   "Dialog": [
     {
-      "[name]": "Ahh, amazing [Player], that’s exactly what I need!"
+      "&9&l[name]&f": "Ahh, amazing [Player], that’s exactly what I need!"
     },
     false
   ],
@@ -142,7 +142,7 @@
 
   "Dialog": [
     {
-      "[name]": "Could you be so kind to fetch me &6&l2 Glass Panes&f as well?"
+      "&9&l[name]&f": "Could you be so kind to fetch me &6&l2 Glass Panes&f as well?"
     },
     false
   ],
@@ -179,8 +179,8 @@
   "Skip": "Glass Fail",
   "Dialog": [
     {
-      "[name]": "Are you even trying?",
-      "[name]": "I am still waiting on the &6&l2 Glass Panes&f you promised me."
+      "&9&l[name]&f": "Are you even trying?",
+      "&9&l[name]&f": "I am still waiting on the &6&l2 Glass Panes&f you promised me."
     },
     false
   ],
@@ -189,9 +189,9 @@
   "Comment": "Glass Fail",
   "Dialog": [
     {
-      "[name]": "Oh, you silly goose!",
-      "[name]": "It’s supposed to be two completely normal glass panes, not those big chunks of glass!",
-      "[name]": "Don’t forget that I will need two of them."
+      "&9&l[name]&f": "Oh, you silly goose!",
+      "&9&l[name]&f": "It’s supposed to be two completely normal glass panes, not those big chunks of glass!",
+      "&9&l[name]&f": "Don’t forget that I will need two of them."
     },
     false
   ],
@@ -200,9 +200,9 @@
   "Comment": "Glass Almost",
   "Dialog": [
     {
-      "[name]": "That’s right, glass panes, but it seems you are a bit short.",
-      "[name]": "I need two of them to build the small barn.",
-      "[name]": "Please come back with more."
+      "&9&l[name]&f": "That’s right, glass panes, but it seems you are a bit short.",
+      "&9&l[name]&f": "I need two of them to build the small barn.",
+      "&9&l[name]&f": "Please come back with more."
     },
     false
   ],
@@ -211,7 +211,7 @@
   "Comment": "Glass Success",
   "Dialog": [
     {
-      "[name]": "Thank you! Come back when you are ready, I have more things that has to be done! *cackles wickedly*."
+      "&9&l[name]&f": "Thank you! Come back when you are ready, I have more things that has to be done! *cackles wickedly*."
     },
     false
   ],
@@ -222,8 +222,8 @@
 
   "Dialog": [
     {
-      "[name]": "I need you to get &6&l62 Oak Logs&f including &6&la simple Oak Door&f.",
-      "[name]": "After that then I will have everything to create a shelter for my harvest."
+      "&9&l[name]&f": "I need you to get &6&l62 Oak Logs&f including &6&la simple Oak Door&f.",
+      "&9&l[name]&f": "After that then I will have everything to create a shelter for my harvest."
     },
     false
   ],
@@ -263,9 +263,9 @@
   "Skip": "Wood Almost",
   "Dialog": [
     {
-      "[name]": "It seems like you haven’t gotten everything I have asked for.",
-      "[name]": "Don’t worry, here I will say them again.",
-      "[name]": "I need &6&l62 oak logs&f and &6&lan oak door&f; now shush I need to focus on my work."
+      "&9&l[name]&f": "It seems like you haven’t gotten everything I have asked for.",
+      "&9&l[name]&f": "Don’t worry, here I will say them again.",
+      "&9&l[name]&f": "I need &6&l62 oak logs&f and &6&lan oak door&f; now shush I need to focus on my work."
     },
     false
   ],
@@ -275,18 +275,18 @@
   "Comment": "Wood Almost",
   "Dialog": [
     {
-      "[name]": "I think I need a bit more materials to complete the build.",
-      "[name]": "Would you mind going to the mines and gather more?",
-      "[name]": "I think I mentioned that I needed 6&l62 Oak Logs&f and &6&la simple Oak Door&f."
+      "&9&l[name]&f": "I think I need a bit more materials to complete the build.",
+      "&9&l[name]&f": "Would you mind going to the mines and gather more?",
+      "&9&l[name]&f": "I think I mentioned that I needed 6&l62 Oak Logs&f and &6&la simple Oak Door&f."
     },
     false
   ],
   "Comment": "Wood Success",
   "Dialog": [
     {
-      "[name]": "That was the last items I needed.",
-      "[name]": "Now I need to get to work! The snow is really beginning to look bad at a distance…",
-      "[name]": "Thank you so much for your help."
+      "&9&l[name]&f": "That was the last items I needed.",
+      "&9&l[name]&f": "Now I need to get to work! The snow is really beginning to look bad at a distance…",
+      "&9&l[name]&f": "Thank you so much for your help."
     },
     false
   ],
@@ -297,10 +297,10 @@
 
   "Dialog": [
     {
-      "[name]": "I cannot say how happy I am that you took your time to help me.",
-      "[name]": " We won't struggle with food, and we have you to thank for that.",
-      "[name]": "Take this *gives items* and remember that [kingdom] is in debt to [KINGDOM].",
-      "[name]": "Farewell [PLAYER], I hope we see each other again some time!"
+      "&9&l[name]&f": "I cannot say how happy I am that you took your time to help me.",
+      "&9&l[name]&f": " We won't struggle with food, and we have you to thank for that.",
+      "&9&l[name]&f": "Take this *gives items* and remember that [kingdom] is in debt to [KINGDOM].",
+      "&9&l[name]&f": "Farewell [PLAYER], I hope we see each other again some time!"
     },
     false
   ],
