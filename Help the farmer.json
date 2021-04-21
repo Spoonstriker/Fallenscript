@@ -22,7 +22,7 @@
     "name": "[name]",
     "skin": "fallen_farmer",
     "location": [1921.5, 23.0, 559.5, 100.0],
-    false
+    "global": false
   },
 
 
