@@ -200,7 +200,7 @@
     {
       "&9&l[name]&f": "Oh, you silly goose!",
       "&9&l[name]&f": "It’s supposed to be two completely normal glass panes, not those big chunks of glass!",
-      "&9&l[name]&f": "Don’t forget that I will need two of them.",
+      "&9&l[name]&f": "Don’t forget that I will need two of them."
     },
     false
   ],
@@ -233,7 +233,7 @@
   "Dialog": [
     {
       "&9&l[name]&f": "I need you to get &6&l62 Oak Logs&f including &6&la simple Oak Door&f.",
-      "&9&l[name]&f": "After that then I will have everything to create a shelter for my harvest.",
+      "&9&l[name]&f": "After that then I will have everything to create a shelter for my harvest."
     },
     false
   ],
