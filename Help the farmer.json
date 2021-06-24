@@ -140,6 +140,7 @@
   "Dialog": [
     {
       "&9&l[name]&f": "Ahh, amazing [PLAYER], that’s exactly what I need!"
+      "&9&l[name]&f": "Please talk to me later when you have the time."
     },
     false
   ],
