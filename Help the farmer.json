@@ -282,6 +282,8 @@
   "Skip": "Wood Loop",
 
 
+
+
   "Comment": "Wood Almost",
   "Dialog": [
     {
@@ -301,6 +303,7 @@
     },
     false
   ],
+
 
   "Comment": "Chest animation again but this time he give the player their reward.",
   "Wait": 1,
