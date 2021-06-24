@@ -135,7 +135,7 @@
   ],
   "Skip": "StoneLoop",
 
-  "Comment": "Stone Success",
+  "Comment": "StoneSuccess",
   "TakeItem": [{"material":"stone", "amount":85}],
   "Dialog": [
     {
