@@ -74,7 +74,7 @@
     false
   ],
 
-  "Comment": "Stone Loop",
+  "Comment": "StoneLoop",
   "Wait": 1,
   "HighlightClickEntity": "farmer",
   "If": [],
@@ -85,7 +85,7 @@
     }
   ],
 
-  "Skip": "Stone Success",
+  "Skip": "StoneSuccess",
   "If": [],
   "HasItem": [
     {
@@ -94,7 +94,7 @@
     }
   ],
 
-  "Skip": "Stone Almost",
+  "Skip": "StoneAlmost",
   "If": [],
   "HasItem": [
     {
@@ -102,7 +102,7 @@
       "amount": 1
     }
   ],
-  "Skip": "Stone Fail",
+  "Skip": "StoneFail",
   "Dialog": [
     {
       "&9&l[name]&f": "Are you even trying?",
@@ -110,9 +110,9 @@
     },
     false
   ],
-  "Skip": "Stone Loop",
+  "Skip": "StoneLoop",
 
-  "Comment": "Stone Fail",
+  "Comment": "StoneFail",
   "Dialog": [
     {
       "&9&l[name]&f": "No, no, no… this isn’t what I need.",
@@ -122,9 +122,9 @@
     },
     false
   ],
-  "Skip": "Stone Loop",
+  "Skip": "StoneLoop",
 
-  "Comment": "Stone Almost",
+  "Comment": "StoneAlmost",
   "Dialog": [
     {
       "&9&l[name]&f": "Oh yes! That is what I need!",
@@ -133,7 +133,7 @@
     },
     false
   ],
-  "Skip": "Stone Loop",
+  "Skip": "StoneLoop",
 
   "Comment": "Stone Success",
   "TakeItem": [{"material":"stone", "amount":85}],
@@ -156,7 +156,7 @@
     false
   ],
 
-  "Comment": "Glass Loop",
+  "Comment": "GlassLoop",
   "Wait": 1,
   "HighlightClickEntity": "farmer",
   "If": [],
@@ -167,7 +167,7 @@
     }
   ],
 
-  "Skip": "Glass Success",
+  "Skip": "GlassSuccess",
   "If": [],
   "HasItem": [
     {
@@ -176,7 +176,7 @@
     }
   ],
 
-  "Skip": "Glass Almost",
+  "Skip": "GlassAlmost",
   "If": [],
   "HasItem": [
     {
@@ -185,7 +185,7 @@
     }
   ],
 
-  "Skip": "Glass Fail",
+  "Skip": "GlassFail",
   "Dialog": [
     {
       "&9&l[name]&f": "Are you even trying?",
@@ -193,9 +193,9 @@
     },
     false
   ],
-  "Skip": "Glass Loop",
+  "Skip": "GlassLoop",
 
-  "Comment": "Glass Fail",
+  "Comment": "GlassFail",
   "Dialog": [
     {
       "&9&l[name]&f": "Oh, you silly goose!",
@@ -204,9 +204,9 @@
     },
     false
   ],
-  "Skip": "Glass Loop",
+  "Skip": "GlassLoop",
 
-  "Comment": "Glass Almost",
+  "Comment": "GlassAlmost",
   "Dialog": [
     {
       "&9&l[name]&f": "That’s right, glass panes, but it seems you are a bit short.",
@@ -215,9 +215,9 @@
     },
     false
   ],
-  "Skip": "Glass Loop",
+  "Skip": "GlassLoop",
 
-  "Comment": "Glass Success",
+  "Comment": "GlassSuccess",
   "TakeItem": [{"material":"glass_pane", "amount":2}],
   "Dialog": [
     {
@@ -244,7 +244,7 @@
 
 
 
-  "Comment": "Wood Loop",
+  "Comment": "WoodLoop",
   "Wait": 1,
   "HighlightClickEntity": "farmer",
   "If": [],
@@ -258,7 +258,7 @@
       "amount": 1
     }
   ],
-  "Skip": "Wood Success",
+  "Skip": "WoodSuccess",
   "If": [],
   "HasItem": [
     {
@@ -270,7 +270,7 @@
       "amount": 1
     }
   ],
-  "Skip": "Wood Almost",
+  "Skip": "WoodAlmost",
   "Dialog": [
     {
       "&9&l[name]&f": "It seems like you haven’t gotten everything I have asked for.",
@@ -279,12 +279,12 @@
     },
     false
   ],
-  "Skip": "Wood Loop",
+  "Skip": "WoodLoop",
 
 
 
 
-  "Comment": "Wood Almost",
+  "Comment": "WoodAlmost",
   "Dialog": [
     {
       "&9&l[name]&f": "I think I need a bit more materials to complete the build.",
@@ -293,7 +293,7 @@
     },
     false
   ],
-  "Comment": "Wood Success",
+  "Comment": "WoodSuccess",
   "TakeItem": [{"material":"oak_log", "amount":62}, {"material":"oak_door", "amount":1}],
   "Dialog": [
     {
